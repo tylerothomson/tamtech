@@ -151,9 +151,10 @@ p {
 /* Bottom right text */
 #safetytxt {
   position: absolute;
-  bottom: 150px;
-  right: 400px;
-  left: 75px;
+  bottom: 5em;
+  right: 19em;
+  left: 2em;
+
 
   background-color: black;
   color: rgb(230, 138, 0);
