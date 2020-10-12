@@ -203,7 +203,8 @@ p {
   border-radius: 20px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-
+  max-width: 800px;
+  margin: 40px auto;
 }
 
 #contacttxt a:link {
