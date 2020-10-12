@@ -63,7 +63,7 @@ body {
 
 }
 
-#headers {
+.headers {
   text-align: center;
   font-family: 'Staatliches', cursive;
   font-size: 4em;
@@ -193,4 +193,23 @@ p {
   padding: 15px 15px;
   border: 7px solid rgb(255, 138, 0);
   border-radius: 20px;
+}
+
+#contacttxt {
+  background-color: black;
+  color: rgb(230, 138, 0);
+  padding: 15px 15px;
+  border: 7px solid rgb(255, 138, 0);
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#contacttxt a:link {
+  color: rgb(255, 138, 0);
+}
+
+#contacttxt a:visited {
+  color: rgb(255, 138, 0);
 }
