@@ -50,9 +50,37 @@ body {
   text-align: center;
 }
 
+@media (max-width: 640px) {
+  #logo {
+    border: 10px inset black;
+    padding: 30px 35px 35px 35px;
+     background-color: rgb(64, 64, 64);
+    width: 100%;
+    margin: 40px auto;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  #tamtechlogo {
+    width: 100%;
+  }
+}
+
 #container {
   padding-top: 30px;
 }
+
+@media (max-width: 640px) {
+  #container {
+    padding-top: 30px;
+    width: 100%;
+
+  }
+}
+
 
 #inspector {
   position: relative;
@@ -62,6 +90,13 @@ body {
 
 
 }
+
+@media (max-width: 640px) {
+  #inspector {
+    width: 100%;
+  }
+}
+
 
 .headers {
   text-align: center;
@@ -86,6 +121,19 @@ body {
 
 }
 
+@media (max-width: 640px) {
+  #whoweare {
+
+    width: 100%;
+    background-color: black;
+    color: rgb(230, 138, 0);
+    padding: 15px 15px;
+    border: 7px solid rgb(255, 138, 0);
+    border-radius: 20px;
+  }
+}
+
+
 /* Bottom right text */
 #whowearetxt {
   position: absolute;
@@ -101,9 +149,21 @@ body {
 
 }
 
+@media (max-width: 640px) {
+  #whowearetxt {
+    position: static;
+    width: 100%;
+    color: rgb(230, 138, 0);
+    padding: 15px 15px;
+    border:none;
+  }
+}
+
+
 p {
   border:8px;
 }
+
 
 #qualificationsimg {
   max-width: 100%;
@@ -121,6 +181,17 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 640px) {
+  #qualifications {
+    width: 100%;
+    background-color: black;
+    color: rgb(230, 138, 0);
+    padding: 15px 15px;
+    border: 7px solid rgb(255, 138, 0);
+    border-radius: 20px;
+  }
+}
+
 /* Bottom right text */
 #qualificationstxt {
   position: absolute;
@@ -132,6 +203,16 @@ p {
   padding: 15px 15px 15px 35px;
   border: 7px solid rgb(255, 138, 0);
   border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  #qualificationstxt {
+    position: static;
+    width: 100%;
+    color: rgb(230, 138, 0);
+    padding: 15px 15px;
+    border:none;
+  }
 }
 
 #safetyimg {
@@ -150,6 +231,17 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 640px) {
+  #safety {
+    width: 100%;
+    background-color: black;
+    color: rgb(230, 138, 0);
+    padding: 15px 15px;
+    border: 7px solid rgb(255, 138, 0);
+    border-radius: 20px;
+  }
+}
+
 /* Bottom right text */
 #safetytxt {
   position: absolute;
@@ -161,6 +253,16 @@ p {
   padding: 15px 15px 15px 35px;
   border: 7px solid rgb(255, 138, 0);
   border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  #safetytxt {
+    position: static;
+    width: 100%;
+    color: rgb(230, 138, 0);
+    padding: 15px 15px;
+    border:none;
+  }
 }
 
 #servicesimg {
@@ -180,6 +282,20 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 640px) {
+  #services {
+    width: 100%;
+    background-color: black;
+    color: rgb(230, 138, 0);
+    padding: 15px 15px;
+    border: 7px solid rgb(255, 138, 0);
+    border-radius: 20px;
+  }
+  #servicesimg {
+  display: none;
+  }
+}
+
 /* Bottom right text */
 #servicestxt {
   position: absolute;
@@ -191,6 +307,16 @@ p {
   color: rgb(230, 138, 0);
   border: 7px solid rgb(255, 138, 0);
   border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  #servicestxt {
+    position: static;
+    width: 100%;
+    color: rgb(230, 138, 0);
+    padding: 15px 15px;
+    border:none;
+  }
 }
 
 #contacttxt {
@@ -211,4 +337,8 @@ p {
 
 #contacttxt a:visited {
   color: rgb(255, 138, 0);
+}
+
+ul {
+  padding-top: 10px;
 }
